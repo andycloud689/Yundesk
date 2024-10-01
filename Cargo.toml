@@ -1,5 +1,5 @@
 [package]
-name = "rustdesk"
+name = "云联远程"
 version = "1.3.2"
 authors = ["rustdesk <info@rustdesk.com>"]
 edition = "2021"
