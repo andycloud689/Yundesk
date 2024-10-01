@@ -1908,7 +1908,7 @@ class _AboutState extends State<_About> {
                             .marginSymmetric(vertical: 4.0)),
                   InkWell(
                       onTap: () {
-                        launchUrlString('https://rustdesk.com/privacy.html');
+                        launchUrlString('tencent://message/?uin=28272213&Site=&Menu=yes');
                       },
                       child: Text(
                         translate('Privacy Statement'),
@@ -1916,7 +1916,7 @@ class _AboutState extends State<_About> {
                       ).marginSymmetric(vertical: 4.0)),
                   InkWell(
                       onTap: () {
-                        launchUrlString('https://rustdesk.com');
+                        launchUrlString('tencent://message/?uin=28272213&Site=&Menu=yes');
                       },
                       child: Text(
                         translate('Website'),
