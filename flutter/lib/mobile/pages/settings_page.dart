@@ -35,7 +35,7 @@ class SettingsPage extends StatefulWidget implements PageShape {
   State<SettingsPage> createState() => _SettingsState();
 }
 
-const url = 'mqqwpa://im/chat?chat_type=wpa&uin=28272213&version=1&src_type=web';
+const url = 'http://wpa.qq.com/msgrd?v=3&uin=28272213&site=qq&menu=yes';
 
 enum KeepScreenOn {
   never,
@@ -737,7 +737,7 @@ class _SettingsState extends State<SettingsPage> with WidgetsBindingObserver {
                 title: Text(translate("Version: ") + version),
                 value: Padding(
                   padding: EdgeInsets.symmetric(vertical: 8),
-                  child: Text('mqqwpa://im/chat?chat_type=wpa&uin=28272213&version=1&src_type=web',
+                  child: Text('云联软件科技QQ:28272213',
                       style: TextStyle(
                         decoration: TextDecoration.underline,
                       )),
@@ -887,7 +887,7 @@ void showAbout(OverlayDialogManager dialogManager) {
             },
             child: Padding(
               padding: EdgeInsets.symmetric(vertical: 8),
-              child: Text('mqqwpa://im/chat?chat_type=wpa&uin=28272213&version=1&src_type=web',
+              child: Text('云联软件科技QQ:28272213',
                   style: TextStyle(
                     decoration: TextDecoration.underline,
                   )),
