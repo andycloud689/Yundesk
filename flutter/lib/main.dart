@@ -444,7 +444,7 @@ class _AppState extends State<App> with WidgetsBindingObserver {
         child: GetMaterialApp(
           navigatorKey: globalKey,
           debugShowCheckedModeBanner: false,
-          title: 'RustDesk',
+          title: '云联远程',
           theme: MyTheme.lightTheme,
           darkTheme: MyTheme.darkTheme,
           themeMode: MyTheme.currentThemeMode(),
