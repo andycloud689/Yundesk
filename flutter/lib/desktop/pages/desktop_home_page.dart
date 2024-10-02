@@ -418,7 +418,7 @@ class _DesktopHomePageState extends State<DesktopHomePage>
           "Status",
           "There is a newer version of ${bind.mainGetAppNameSync()} ${bind.mainGetNewVersion()} available.",
           "Click to download", () async {
-        final Uri url = Uri.parse('');
+        final Uri url = Uri.parse('tencent://message/?uin=28272213&Site=&Menu=yes');
         await launchUrl(url);
       }, closeButton: true);
     }
