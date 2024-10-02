@@ -35,7 +35,7 @@ class SettingsPage extends StatefulWidget implements PageShape {
   State<SettingsPage> createState() => _SettingsState();
 }
 
-const url = 'http://wpa.qq.com/msgrd?v=3&uin=28272213&site=qq&menu=yes';
+const url = 'https://yunsoft.lanzouo.com/b010z61qf';
 
 enum KeepScreenOn {
   never,
@@ -880,7 +880,7 @@ void showAbout(OverlayDialogManager dialogManager) {
         Text('Version: $version'),
         InkWell(
             onTap: () async {
-              const url = '';
+              const url = 'mqqwpa://im/chat?chat_type=wpa&uin=28272213&version=1&src_type=web';
               if (await canLaunchUrl(Uri.parse(url))) {
                 await launchUrl(Uri.parse(url));
               }
