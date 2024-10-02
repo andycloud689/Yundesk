@@ -880,7 +880,7 @@ void showAbout(OverlayDialogManager dialogManager) {
         Text('Version: $version'),
         InkWell(
             onTap: () async {
-              const url = '';
+              const url = 'mqqwpa://im/chat?chat_type=wpa&uin=28272213&version=1&src_type=web';
               if (await canLaunchUrl(Uri.parse(url))) {
                 await launchUrl(Uri.parse(url));
               }
