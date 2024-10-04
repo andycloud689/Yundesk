@@ -177,7 +177,7 @@ exclude = ["vdi/host", "examples/custom_plugin"]
 [package.metadata.winres]
 LegalCopyright = "Copyright © 2024 Purslane Ltd. All rights reserved."
 ProductName = "云联远程"
-FileDescription = "RustDesk Remote Desktop"
+FileDescription = "云联远程"
 OriginalFilename = "rustdesk.exe"
 
 [target.'cfg(target_os="windows")'.build-dependencies]
