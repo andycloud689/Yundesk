@@ -100,7 +100,7 @@ const CHARS: &[char] = &[
     'm', 'n', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z',
 ];
 
-pub const RENDEZVOUS_SERVERS: &[&str] = &["egpc3035.cnvpn.org"];
+pub const RENDEZVOUS_SERVERS: &[&str] = &["yunvpn.1314689.xyz"];
 pub const PUBLIC_RS_PUB_KEY: &str = "cg5+yfFgpNxOEUKFZAH2t1BgCi6ZXAV1WdzaCFisC3Q=";
 
 pub const RS_PUB_KEY: &str = match option_env!("RS_PUB_KEY") {
@@ -108,8 +108,8 @@ pub const RS_PUB_KEY: &str = match option_env!("RS_PUB_KEY") {
     _ => PUBLIC_RS_PUB_KEY,
 };
 
-pub const RENDEZVOUS_PORT: i32 = 21116;
-pub const RELAY_PORT: i32 = 21117;
+pub const RENDEZVOUS_PORT: i32 = 26666;
+pub const RELAY_PORT: i32 = 27777;
 
 macro_rules! serde_field_string {
     ($default_func:ident, $de_func:ident, $default_expr:expr) => {
